@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<phpunit
+         backupGlobals="false"
+         backupStaticAttributes="false"
+         strict="true"
+         verbose="true"
+         timeoutForSmallTests="5">
+
+<testsuites>
+   <testsuite name="My Class Test">
+	<directory suffix="Test.php">/tests/unit</directory>
+	 <file>tests/unit/MyClassTest.php</file>
+   </testsuite>
+</testsuites>
+
+<logging>
+  <log type="coverage-html" target="build/coverage" title="GPMD-Default"
+   charset="UTF-8" yui="true" highlight="true"
+   lowUpperBound="35" highLowerBound="70"/>
+  <log type="coverage-clover" target="build/logs/clover.xml"/>
+  <log type="junit" target="build/logs/junit.xml" logIncompleteSkipped="false"/>
+</logging>
+</phpunit>
