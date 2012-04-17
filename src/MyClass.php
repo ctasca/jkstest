@@ -6,7 +6,6 @@ class MyClass {
         }
         return 0;
 	}
-	
 	public function testing_that () {
 		return false;
 	}
