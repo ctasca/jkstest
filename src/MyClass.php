@@ -12,4 +12,7 @@ class MyClass {
 	public function testingThis () {
 		return false;
 	}
+	public function testingThiss () {
+		return false;
+	}
 }
